@@ -1,0 +1,11 @@
+name: CI Workflow
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  common_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Include Workflow from Template Repo
+        uses: test-repo/.github/workflows/pr_agent.yml@main
