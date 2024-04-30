@@ -5,7 +5,7 @@ const gameArea = document.querySelector('.gameArea');
 
 // console.log(gameArea);
 startScreen.addEventListener('click', start);
-let player = { speed: 5, score: 0 };
+let player = { speed: 10, score: 0 };
 
 let keys = { ArrowUp: false, ArrowDown: false, ArrowLeft: false, ArrowRight: false, }
 
